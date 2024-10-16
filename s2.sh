@@ -8,7 +8,7 @@ fi
 
 # Create a new user (replace 'newuser' with the desired username)
 apt install sudo
-useradd newuser
+useradd ancible
 
 # Add the new user to the sudo group
 usermod -aG sudo ancible
