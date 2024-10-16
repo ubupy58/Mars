@@ -7,6 +7,7 @@ if [ "$(id -u)" -ne 0 ]; then
 fi
 
 # Create a new user (replace 'newuser' with the desired username)
+apt install sudo
 useradd newuser
 
 # Add the new user to the sudo group
