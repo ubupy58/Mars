@@ -1,4 +1,4 @@
 #!/usr/bin/
-apt install tmux -y
+apt install tmux -y && apt upgrade
 
 ##fdfdf
