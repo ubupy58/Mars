@@ -1,4 +1,4 @@
 #!/usr/bin/
-apt install tmux -y && adduser jay -y
+apt install tmux -y && adduser Fred -y
 
 ##fdfdf
