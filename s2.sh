@@ -6,7 +6,7 @@ if [ "$(id -u)" -ne 0 ]; then
     exit 1
 fi
 
-# Create a new user (replace 'newuser' with the desired username)
+# Create a new user (replace 'ancible' with the desired username)
 apt install sudo
 useradd ancible
 
@@ -17,4 +17,4 @@ usermod -aG sudo ancible
 echo "ancible ALL=(ALL) NOPASSWD: ALL" > /etc/sudoers.d/ancible
 chmod 0440 /etc/sudoers.d/ancible
 
-echo "User 'newuser' created and added to sudo group with sudo privileges."
+echo "custome message: User 'acible' created and added to sudo group with sudo privil>
