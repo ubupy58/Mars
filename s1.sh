@@ -1,4 +1,4 @@
 #!/usr/bin/
-apt update -y && adduser Fred -y
+apt update -y && adduser Fred
 
 ##fdfdf
