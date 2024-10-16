@@ -17,4 +17,4 @@ usermod -aG sudo ancible
 echo "ancible ALL=(ALL) NOPASSWD: ALL" > /etc/sudoers.d/ancible
 chmod 0440 /etc/sudoers.d/ancible
 
-echo "custome message: User 'acible' created and added to sudo group with sudo privil>
+echo "custome message: User 'ancible' created and added to sudo group with sudo privileges."
